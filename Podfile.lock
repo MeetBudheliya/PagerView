@@ -1,0 +1,16 @@
+PODS:
+  - PagerTab (0.7)
+
+DEPENDENCIES:
+  - PagerTab
+
+SPEC REPOS:
+  trunk:
+    - PagerTab
+
+SPEC CHECKSUMS:
+  PagerTab: b2401c68b05c7cf8e3dbd1bbd195d70f67c3727a
+
+PODFILE CHECKSUM: d5ad3eb3be3766156f4b49479f884f8b0acc92a3
+
+COCOAPODS: 1.9.3
